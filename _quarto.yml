@@ -19,14 +19,12 @@ format:
     css: banner/banner.css
       ### doesn't render NCEAS logo if put in scss file?
       ### seems to work locally but not when published on GitHub
-    toc: true
-    number-sections: true
     title-block-banner: "blue" ### need this here to "turn on" the title-block-banner
 
 website:
-  title: "AI for NCEAS"
+  title: "lhCore test again! (whenever)"
   reader-mode: false
-  repo-url: https://github.com/nceas-learning-hub/ai_for_nceas
+  repo-url: COURSE_REPO
 
   favicon: logo_lh_hex.png # learning hub logo on browser tab
 
@@ -37,10 +35,8 @@ website:
         menu:
           - text: "Casey O'Hara"
             href: https://www.oharascience.com/
-          - text: "Li Kui"
-            href: https://www.linkedin.com/in/kui2014/
       - icon: github
-        href: https://github.com/nceas-learning-hub/ai_for_nceas
+        href: COURSE_REPO
         aria-label: GitHub
 
   sidebar:
@@ -56,10 +52,9 @@ website:
         href: COURSE_URL
     contents:
       - index.qmd # preface
-      # - s01_ai_coding_support.qmd  ###  (coreRlessons version NA)
-      # - s02_ai_analysis_in_llm.qmd  ###  (coreRlessons version NA)
-      # - s03_ai_and_apis.qmd  ###  (coreRlessons version NA)
-      # - s04_ai_lit_review.qmd  ###  (coreRlessons version NA)
+      # START SESSIONS
+      # SESSION_LINKS
+      # END SESSIONS
 
   page-footer:
     center: "Copyright \u00a9 2025, NCEAS"
